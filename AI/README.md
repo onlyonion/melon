@@ -7,3 +7,22 @@
   - 文本挖掘/分类
   - 机器翻译
 - 机器人
+
+
+### lib
+- matplotlib
+- numpy
+- pandas
+- sklearn
+- pytorch
+- mxnet
+
+
+### Overview
+
+![AI基础](./img/AI基础.png)
+![推荐系统基础](./img/推荐系统基础.png)
+![机器学习（算法篇）](./img/机器学习（算法篇）.png)
+![机器学习](./img/机器学习.png)
+![黑马头条](./img/黑马头条.png)
+![深度学习推荐系统](./img/深度学习推荐系统.png)
