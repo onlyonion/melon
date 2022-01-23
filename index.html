@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.css">
   <script src="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css"/>
+  <script src="https://cdn.bootcss.com/viz.js/1.8.0/viz.js"></script>
 </head>
 <body>
   <div id="app"></div>
@@ -23,7 +24,7 @@
       nameLink: /localhost/.test(location.host) ? '/' : '/melon',
       repo: /gitee/.test(location.host) ? 'https://gitee.com/onlyonion/melon' : 'https://github.com/onlyonion/melon',
       alias: {
-        //'/.*/_sidebar.md': '/_sidebar.md',
+        '/.*/_sidebar.md': '/_sidebar.md',
         '/.*/_navbar.md': '/_navbar.md',
       },
       auto2top: true,
@@ -50,6 +51,10 @@
               return (
                 '<div class="mermaid">' + mermaid.render(lang, code) + "</div>"
               );
+            } else if (lang === "dot") {
+                return (
+                '<div class="viz">'+ Viz(code, "SVG")+'</div>'
+                );
             }
             return this.origin.code.apply(this, arguments);
           }

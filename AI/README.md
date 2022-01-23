@@ -8,15 +8,13 @@
   - 机器翻译
 - 机器人
 
-## lib
-- matplotlib
-- numpy
-- pandas
-- sklearn
-- pytorch
-- mxnet
-
 ## Overview
+
+### 数据挖掘
+![数据挖掘](./img/数据挖掘.png)
+
+### 机器学习-周志华
+![机器学习](./img/机器学习.png)
 
 ### AI基础
 ![AI基础](./img/AI基础.png)
@@ -24,6 +22,4 @@
 ### 机器学习（算法篇）
 ![机器学习（算法篇）](./img/机器学习（算法篇）.png)
 
-### 机器学习-周志华
-![机器学习](./img/机器学习.png)
 

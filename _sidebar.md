@@ -1,4 +1,6 @@
 * [AI](AI/)
+  - [科学计算库](AI/heima/科学计算库.md)
+  - [算法](AI/heima/算法.md)
 * [推荐系统](Reco/README.md)
 * [Computer](Computer/)
 * [Math](Math/)

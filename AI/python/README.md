@@ -18,3 +18,15 @@
   - 搜索算法
   - 推荐算法
 - 深度学习
+
+## lib
+- shutil
+- os
+- json
+- datetime
+- time
+- argparse
+- glob
+- random
+- re
+- ast
