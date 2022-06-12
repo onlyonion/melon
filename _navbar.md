@@ -1,7 +1,7 @@
 * AI
-  * [AI](AI/)
-  * [推荐系统](Reco/README.md)
+  * [AI](AI/AI/)
+  * [推荐系统](AI/Reco/README.md)
 * Computer
-  * [Computer](Computer/)
+  * [Computer](AI/Computer/)
 * Math
-  * [Math](Math/)
+  * [Math](AI/Math/)
