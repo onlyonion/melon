@@ -5,3 +5,6 @@
   * [Computer](AI/Computer/)
 * Math
   * [Math](AI/Math/)
+* Pay
+  * [支付](Pay/)
+* [Help](help.md)

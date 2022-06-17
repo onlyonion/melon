@@ -12,5 +12,6 @@
 
 > All we can do is our best, and sometimes the best we can do is to start over.
 
-[AI](AI/AI) 
-[推荐](AI/Reco/)
+[AI](AI/) 
+[Reco](Reco/)
+[Pay](Pay/)
