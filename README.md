@@ -11,5 +11,6 @@
 - [计算机基础](Computer/README.md)
 - [数学](Math/README.md)
 - [支付](Pay/README.md)
+- [平台](Platform/README.md)
 
 ![home](AI/img/home.png)
