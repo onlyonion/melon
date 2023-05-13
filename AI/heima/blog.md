@@ -1,9 +1,9 @@
 
 
 ## 问题类型
-- classification (分类)
+- classification (分类) 监督学习，逻辑回归
+- clustering (聚类) 无监督学习
 - regression (回归)
-- clustering (聚类)
 - dimensionality reduction (降维)
 
 1，给定一个样本特征, 我们希望预测其对应的属性值 , 如果是离散的, 那么这就是一个分类问题，反之，如果是连续的实数, 这就是一个回归问题。
