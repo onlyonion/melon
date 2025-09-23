@@ -1,0 +1,111 @@
+<mxfile host="65bd71144e">
+    <diagram id="MnCx11ef__ds8wZ3Mjum" name="第 1 页">
+        <mxGraphModel dx="739" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="31STuTdH1Sw7WjtKxgBK-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="31STuTdH1Sw7WjtKxgBK-11" target="31STuTdH1Sw7WjtKxgBK-12" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="31STuTdH1Sw7WjtKxgBK-32" value="基于用户&lt;br&gt;相似度的推荐" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="31STuTdH1Sw7WjtKxgBK-21" vertex="1" connectable="0">
+                    <mxGeometry x="0.3727" y="-3" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31STuTdH1Sw7WjtKxgBK-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="31STuTdH1Sw7WjtKxgBK-11" target="31STuTdH1Sw7WjtKxgBK-13" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="31STuTdH1Sw7WjtKxgBK-33" value="基于物品&lt;br&gt;相似度的推荐" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="31STuTdH1Sw7WjtKxgBK-22" vertex="1" connectable="0">
+                    <mxGeometry x="0.4" y="2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31STuTdH1Sw7WjtKxgBK-23" value="t通过矩阵分解，提升&lt;br&gt;处理稀疏矩阵的能力" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="31STuTdH1Sw7WjtKxgBK-11" target="31STuTdH1Sw7WjtKxgBK-14" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="128" y="190"/>
+                            <mxPoint x="128" y="190"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31STuTdH1Sw7WjtKxgBK-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="31STuTdH1Sw7WjtKxgBK-11" target="31STuTdH1Sw7WjtKxgBK-15" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="31STuTdH1Sw7WjtKxgBK-34" value="加入&lt;br&gt;更多特征" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="31STuTdH1Sw7WjtKxgBK-24" vertex="1" connectable="0">
+                    <mxGeometry x="-0.2" y="-2" relative="1" as="geometry">
+                        <mxPoint y="1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31STuTdH1Sw7WjtKxgBK-11" value="CF" style="rounded=1;whiteSpace=wrap;html=1;flipH=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="85" y="155" width="85" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="31STuTdH1Sw7WjtKxgBK-12" value="UserCF" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="40" width="75" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="31STuTdH1Sw7WjtKxgBK-13" value="ItemCF" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="145" y="40" width="75" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="31STuTdH1Sw7WjtKxgBK-38" value="加入&lt;br&gt;更多特征" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="31STuTdH1Sw7WjtKxgBK-14" target="31STuTdH1Sw7WjtKxgBK-18" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="31STuTdH1Sw7WjtKxgBK-14" value="MF" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+                    <mxGeometry x="85" y="340" width="85" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="31STuTdH1Sw7WjtKxgBK-25" value="样本分组+LR" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="31STuTdH1Sw7WjtKxgBK-15" target="31STuTdH1Sw7WjtKxgBK-16" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="31STuTdH1Sw7WjtKxgBK-26" value="特征交叉" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="31STuTdH1Sw7WjtKxgBK-15" target="31STuTdH1Sw7WjtKxgBK-17" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="333" y="230"/>
+                            <mxPoint x="333" y="230"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31STuTdH1Sw7WjtKxgBK-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="31STuTdH1Sw7WjtKxgBK-15" target="31STuTdH1Sw7WjtKxgBK-30" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="435" y="173"/>
+                            <mxPoint x="435" y="173"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31STuTdH1Sw7WjtKxgBK-36" value="GBDT进行&lt;br&gt;特征组合和筛选" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="31STuTdH1Sw7WjtKxgBK-15" target="31STuTdH1Sw7WjtKxgBK-20" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="31STuTdH1Sw7WjtKxgBK-15" value="LR" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+                    <mxGeometry x="290" y="155" width="85" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="31STuTdH1Sw7WjtKxgBK-16" value="LS-PLM" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+                    <mxGeometry x="295" y="40" width="75" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="31STuTdH1Sw7WjtKxgBK-37" value="t通过向量特征交叉&lt;br&gt;解决POLY2稀疏性和&lt;br&gt;计算法复杂度问题" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="31STuTdH1Sw7WjtKxgBK-17" target="31STuTdH1Sw7WjtKxgBK-18" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="31STuTdH1Sw7WjtKxgBK-17" value="POLY2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+                    <mxGeometry x="295" y="240" width="75" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="31STuTdH1Sw7WjtKxgBK-28" value="引入特征域信息&lt;br&gt;多域隐向量特征交叉" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="31STuTdH1Sw7WjtKxgBK-18" target="31STuTdH1Sw7WjtKxgBK-19" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="333" y="430"/>
+                            <mxPoint x="333" y="430"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31STuTdH1Sw7WjtKxgBK-18" value="FM" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+                    <mxGeometry x="295" y="340" width="75" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="31STuTdH1Sw7WjtKxgBK-19" value="FFM&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+                    <mxGeometry x="295" y="440" width="75" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="31STuTdH1Sw7WjtKxgBK-20" value="GBDT+LR" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+                    <mxGeometry x="425" y="340" width="75" height="35" as="geometry"/>
+                </mxCell>
+                <mxCell id="31STuTdH1Sw7WjtKxgBK-30" value="GBDT" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="535" y="155" width="75" height="35" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
