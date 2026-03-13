@@ -15,4 +15,13 @@
 - [支付](Pay/README.md)
 - [平台](Platform/README.md)
 
+
+## 关于AI
+![ai-circle](AI/img/ai-ai-circle.drawio.png)
+
+
+## AI分层
+![ai](AI/img/ai.drawio.png)
+
+## 十八般武艺
 ![home](AI/img/home.png)
