@@ -17,11 +17,11 @@
 
 
 ## 关于AI
-![ai-circle](AI/img/ai-ai-circle.drawio.png)
+![ai-circle](AI/img/ai-ai-circle.png)
 
 
 ## AI分层
-![ai](AI/img/ai.drawio.png)
+![ai](AI/img/ai-AI知识架构.png)
 
 ## 十八般武艺
 ![home](AI/img/home.png)
